@@ -1,0 +1,93 @@
+.external-css {
+    color:#f12424; 
+    background-color: rgb(255, 189, 103); 
+} 
+body, h1, h2, p, ul, li, a {
+    background-color: antiquewhite;
+} 
+
+header {
+    padding-bottom: .75em;
+    border-bottom: 3px solid rgb(255, 0, 0); 
+}
+h1 {
+    font-size: 200;
+    font-family: Impact;
+    color: brown;
+    margin-bottom: 1em;
+}
+h2 {
+    font-size: 100;
+    font-family: sans-serif;
+    color: rgb(110, 35, 35);
+
+}
+p {
+    
+    font-family: sans-serif;
+    background-color: rgb(255, 208, 0);
+    margin-bottom: 12px;
+    font-size: 19px;
+}
+img {
+    float: left;
+    margin-right: 1em;
+}
+main {
+    clear: left;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 10px; 
+    margin-bottom: 12px;/
+}
+
+ul li {
+    margin-left: 1opx;
+    margin-bottom: 12px;
+}
+
+div ul { 
+    list-style-type: square;
+} 
+
+a {
+    display: inline-block;
+    color:#000000; 
+    text-decoration: none; 
+    padding: 5px 10px; 
+    border: 1px solid #3498db;
+    transition: all 0.3s ease; 
+}
+
+a:hover {
+    background-color: #3498db; 
+    color: white; 
+}
+ 
+button {
+    padding: 5px 10px; 
+    border: none;  
+    background-color: #2d8297;  
+    cursor: pointer; 
+    transition: all 0.3ease;  
+}            
+footer p {
+background-color: antiquewhite; 
+font: 1em courier;
+
+}
+p a{ 
+    color:#219405;  
+    text-decoration: none;
+}
+
+aside{
+    width: 30%;
+    padding: 10x;
+    margin-left: 15px;
+    float: right;
+    background-color: #f12424;
+    font-style: italic;
+ }

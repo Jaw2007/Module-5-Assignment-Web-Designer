@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>forms</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
 <header>
@@ -11,26 +12,85 @@
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="forms.html">forms</a></li>
-        <li><a href="donation.html">Donations</a></li>
+        <li><a href="adoption.html">adoptions</a></li>
         <li><a href="products.html">Products</a></li>
-        <li><a href="tables.html">Table charset</a></li>
+        <li><a href="tables.html">Top donators</a></li>
     </ul>
-
-
-
-
+<h1>Fill out below now!</h1>
 </nav>
-
-
 </header>
 <main>
+<h3>If you finished checking out our adoption page and plan on adopting a pet fill the form below.</h3>
+
+<h1 style="color: black;">WARNING: MUST BE 19   + TO ADOPT ANIMAL.</h1>
+
+<form action="submit.html" method="post">
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="example@example.com">
+   
+    <br>
+
+ 
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male">
+  
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="female">
+   
+    <br>
+    
+
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+        <option value="usa">USA</option>
+        <option value="canada">Canada</option>
+
+    </select>
+    
+    <br>
+
+    <label for="file">Upload your photo:</label>
+    <input type="file" id="file" name="file">
+    
+    <br>
+
+    <input type="hidden" id="userId" name="userId" value="12345">
+    
+    <br>
+    
+
+    <label for="birthdate">Birth Date:</label>
+    <input type="date" id="birthdate" name="birthdate">
+    
+    <br>
 
 
+    <label for="animal">Which animal?:</label>
+    <select id="animal" name="animal">
+    <option value="Pug">Pug</option>
+    <option value="Cat">Cat</option>
+    <option value="Spider-Monkey">Spider-Monkey</option>
+    <br>
+
+
+    </select>
+    <h3 class="external-css">Why are you adopting a pet today?</h3>
+    <label for="comments">Comment:</label>
+    <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+    
+    <br>
+
+    <input type="submit" value="Submit">
+    
+    <input type="reset" value="Reset">
+
+</form>
 
 </main>
 <footer>
-
-
+<p>&copy;2025 Jaw's pet store inc.</p>
+<p><a href="https://github.com/Jaw2007" target="_blank">Visit my GitHub profile</a></p>
 </footer> 
 </body>
 </html>
