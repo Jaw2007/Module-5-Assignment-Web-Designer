@@ -11,13 +11,13 @@ header {
     border-bottom: 3px solid rgb(255, 0, 0); 
 }
 h1 {
-    font-size: 200;
+    font-size: 60px;
     font-family: Impact;
     color: brown;
     margin-bottom: 1em;
 }
 h2 {
-    font-size: 100;
+    font-size: 50px;
     font-family: sans-serif;
     color: rgb(110, 35, 35);
 
@@ -40,11 +40,11 @@ main {
 ul {
     list-style-type: none;
     margin-left: 10px; 
-    margin-bottom: 12px;/
+    margin-bottom: 12px;
 }
 
 ul li {
-    margin-left: 1opx;
+    margin-left: 1px;
     margin-bottom: 12px;
 }
 
@@ -71,7 +71,7 @@ button {
     border: none;  
     background-color: #2d8297;  
     cursor: pointer; 
-    transition: all 0.3ease;  
+    transition: all 0.3s ease;  
 }            
 footer p {
 background-color: antiquewhite; 
@@ -85,7 +85,7 @@ p a{
 
 aside{
     width: 30%;
-    padding: 10x;
+    padding: 10px;
     margin-left: 15px;
     float: right;
     background-color: #f12424;
